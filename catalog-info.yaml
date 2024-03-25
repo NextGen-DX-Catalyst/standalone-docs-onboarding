@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "onboarding"
+  description: "Begin your exploration journey with this onboarding guide"
+  annotations:
+    github.com/project-slug: NextGen-DX-Catalyst/standalone-docs-onboarding
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "group:default/devportal"

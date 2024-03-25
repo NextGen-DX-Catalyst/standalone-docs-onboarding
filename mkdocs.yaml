@@ -1,0 +1,8 @@
+site_name: "onboarding"
+site_description: "Begin your exploration journey with this onboarding guide"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
